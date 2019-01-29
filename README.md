@@ -1,7 +1,7 @@
 # docker-CasparCG
 Docker deployment of the CasparCG Linux Server
 
-'''bash
+```bash
 
 docker build . -t casparcg
 
@@ -15,4 +15,4 @@ docker run \
   --privileged \
   --name casparcg \
   casparcg
-'''
+```
