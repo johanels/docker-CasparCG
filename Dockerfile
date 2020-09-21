@@ -14,7 +14,7 @@ RUN apt-get -y install xvfb lxrandr \
     libnih1 libnih-dbus1 libraw1394-11 libavc1394-0 libiec61883-0 \
     libgtk2.0-0 libcap2 libcgmanager0
 
-RUN wget http://security.debian.org/debian-security/pool/updates/main/libg/libgcrypt11/libgcrypt11_1.5.0-5+deb7u6_amd64.deb -O /opt/libgcrypt11_1.5.0-5+deb7u6_amd64.deb && \
+RUN wget http://archive.debian.org/debian-security/pool/updates/main/libg/libgcrypt11/libgcrypt11_1.5.0-5+deb7u6_amd64.deb -O /opt/libgcrypt11_1.5.0-5+deb7u6_amd64.deb && \
     dpkg -i /opt/libgcrypt11_1.5.0-5+deb7u6_amd64.deb
 
 # download casrparcg
